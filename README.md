@@ -4,6 +4,8 @@
 500 unique car models • MySQL Star Schema • Interactive Power BI Dashboard  
 From raw Kaggle data → Normalized data warehouse → Executive-ready insights & recommendations
 
+** Please review the project report to view the analysis
+
 ## 🚀 Project Overview & Business Impact
 Comprehensive analysis of **10,000+ car sales transactions** across 3+ years, delivering actionable insights on:
 - Revenue growth & seasonality
@@ -43,7 +45,11 @@ Transformed 3 raw tables into a scalable star schema:
 ### Fact Table
 - `fact_sales` (10,000 granular transactions)
 
-→ Full **ERD** included in `/images/ERD_Star_Schema.png`
+→ Full **ERD** included
+<p align="center">
+  <img src="image/datamodel.png" alt="Logo" width="900"/>
+</p>
+
 
 ## 📊 Power BI Dashboard Features
 Interactive pages covering:
