@@ -87,6 +87,7 @@ Perfect for Data Analyst, Business Intelligence Analyst, or Automotive Analytics
 
 ⭐ Star if you found this useful!  
 Always open to feedback and improvements.
+To know more please read the project report .It is available in docs and pdf version ,please check it out.
 
 🔗 LinkedIn: [linkedin.com/in/abu-sufian-data] | More projects: [will come soon]
 
