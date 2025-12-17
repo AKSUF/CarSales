@@ -60,8 +60,10 @@ Interactive pages covering:
 - Inventory Health & Stock Alerts (July 2025 snapshot)
 - Pricing Strategy (Premium vs Discount distribution)
 - Z-Score Segmentation & Outlier Detection
+## Project Dashboard
 
-*.pbix file included in repository*
+You can view the dashboard here: [the dashboard link https://app.powerbi.com/view?r=eyJrIjoiNzNlMDI4ZDEtNjc3NS00M2ZiLWFmNmQtYmM0MDgyNTA3ODc4IiwidCI6ImJhMGRjM2Q5LWVhMmMtNDI0YS1hZTFjLThlMzVkNTExZmExYSIsImMiOjEwfQ%3D%3D
+
 
 ## 📁 Repository Structure
 ├── data/                  # Raw & cleaned datasets (respect Kaggle license)
