@@ -491,14 +491,25 @@ sum(case when fiscal_year = 2024 then units_sold else 0 end)as '2024 Sales Units
 sum(case when fiscal_year = 2025 then units_sold else 0 end)as '2025 Sales Units'
 from vw_margin_analysis group by  salesperson;
 
-create temporary table email_domain_check as
+create view email_domain_count as
 select email,LOWER(SUBSTRING_INDEX(email, '@', -1)) AS email_domain from dim_customer;
 
 -- top email domin extract
+create view email_domain_counts as
 select email_domain ,count(*) as 'Number of Email domain' 
  from email_domain_check 
  group by email_domain 
  order by count(*) desc limit 10;
+
+CREATE VIEW email_domain_top10 AS
+SELECT 
+    LOWER(SUBSTRING_INDEX(email, '@', -1)) AS email_domain,
+    COUNT(*) AS Number_of_Email_Domain
+FROM dim_customer
+GROUP BY email_domain
+ORDER BY COUNT(*) DESC
+LIMIT 10;
+
 
 select * from vw_margin_analysis;
 select * from vw_stock_analysis;

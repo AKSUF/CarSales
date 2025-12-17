@@ -10,4 +10,7 @@ call AutoDetectColumnCategory('dim_customer');
 call AutoDetectColumnCategory('dim_date');
 call AutoDetectColumnCategory('fact_sales');
 
+-- basic insight of datatable 
+select * from salesbasic;
+
 show tables;
